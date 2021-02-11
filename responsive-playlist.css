@@ -1,0 +1,18 @@
+@media (max-width: 700px) {
+  .hamburger {
+    display: block;
+  }
+  #playlist-section {
+    /* display: none; */
+    right: -100%;
+    /* right: 0%; */
+  }
+  #scroll-main {
+    width: 100%;
+  }
+  #playlist-section {
+    border: 2px solid red;
+    /* right: 20px; */
+    top: 40%;
+  }
+}
