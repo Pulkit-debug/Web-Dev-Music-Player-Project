@@ -1,0 +1,389 @@
+@media (min-width: 1130px) {
+  #latest-songs {
+    width: 100%;
+  }
+  #stations-categories {
+    margin-top: -37.5%;
+  }
+}
+
+@media (max-width: 1490px) {
+  #stations-categories .artist > img {
+    width: 6rem;
+    height: 6rem;
+  }
+  .ag1 {
+    top: 2%;
+    left: 5%;
+  }
+  .ag2 {
+    top: 2%;
+    left: 25%;
+  }
+  .ag3 {
+    top: 2%;
+    left: 45%;
+  }
+  .ag4 {
+    top: 2%;
+    left: 64%;
+  }
+  .ag5 {
+    top: 2%;
+    left: 84%;
+  }
+  .ag6 {
+    top: 52%;
+    left: 44%;
+  }
+}
+
+@media (max-width: 1465px) {
+  #user i {
+    margin-left: 25px;
+  }
+}
+
+@media (max-width: 1420px) {
+  /* #dummy-li {
+    margin-left: 20%;
+    margin-right: 20%;
+  } */
+
+  nav input {
+    margin-left: 45vw;
+  }
+  #bell {
+    margin-left: 26px;
+  }
+  #user i {
+    margin-left: 15px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .ag1 {
+    top: 2%;
+    left: 6%;
+  }
+  .ag2 {
+    top: 2%;
+    left: 31%;
+  }
+  .ag3 {
+    top: 2%;
+    left: 55%;
+  }
+  .ag4 {
+    top: 2%;
+    left: 80%;
+  }
+  .ag5 {
+    top: 52%;
+    left: 23%;
+  }
+  .ag6 {
+    top: 52%;
+    left: 63%;
+  }
+  .song-details > h3,
+  p {
+    /* margin: 0; */
+    margin-top: 10px;
+    /* color: white; */
+  }
+}
+
+@media (max-width: 1290px) {
+  /* #dummy-li {
+    margin-left: 15vw;
+    margin-right: 15vw;
+  } */
+  nav input {
+    margin-left: 37vw;
+  }
+  #bell {
+    margin-left: 20px;
+  }
+  #user i {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 1100px) {
+  #stations-categories .artist > img {
+    width: 5rem;
+    height: 5rem;
+  }
+  #station-card-top h2 {
+    font-size: 1.5rem;
+  }
+  .artist-genre {
+    font-size: 1.7rem;
+  }
+  .lr-item-detail > h2,
+  p {
+    color: white;
+    margin: 0;
+  }
+  .song-name {
+    margin-top: 20px;
+    font-size: 1.2rem;
+  }
+  .song-artist-name {
+    font-size: 1rem;
+  }
+  .song-bookmark {
+    font-size: 1.7rem;
+  }
+  #stations-categories {
+    margin-top: -36.5%;
+  }
+}
+
+@media (max-width: 1090px) {
+  /* #dummy-li {
+    margin-left: 10vw;
+    margin-right: 10vw;
+  } */
+  nav input {
+    margin-left: 30vw;
+  }
+  #bell {
+    margin-left: 20px;
+  }
+  #user i {
+    margin-left: 10px;
+  }
+}
+
+@media (max-width: 980px) {
+  nav input {
+    margin-left: 25vw;
+  }
+}
+@media (max-width: 960px) {
+  #stations-categories .artist > img {
+    width: 8vw;
+    height: 8vw;
+  }
+  /* #dummy-li {
+    margin-left: 4vw;
+    margin-right: 4vw;
+  } */
+  .artist-genre {
+    font-size: 1.5rem;
+  }
+  #stations-categories {
+    margin-top: -33.5%;
+  }
+}
+@media (max-width: 920px) {
+  nav input {
+    margin-left: 20vw;
+  }
+}
+
+@media (max-width: 850px) {
+  nav input {
+    margin-left: 15vw;
+  }
+}
+
+/* After Playlist is Gone */
+
+@media (max-width: 830px) {
+  #stations-card {
+    /* border: 2px solid red; */
+    width: 27vw;
+  }
+  #dummy-li {
+    margin-left: 0;
+    margin-right: 0;
+  }
+
+  .hamburger {
+    display: block;
+  }
+  #playlist-section {
+    right: -100%;
+  }
+
+  #scroll-main {
+    width: 100%;
+  }
+  #playlist-section {
+    border: 2px solid red;
+    top: 40%;
+  }
+  #stations-container {
+    margin: 11px;
+    margin-top: 47px;
+    margin-left: 40px;
+  }
+  #stations-categories {
+    margin-top: -27%;
+  }
+  #stations-categories .artist > img {
+    width: 10vw;
+    height: 10vw;
+  }
+  .chart-image {
+    margin: 10px;
+    width: 26vw;
+    height: 19vw;
+  }
+  .ag1 {
+    top: 5%;
+    left: 8%;
+  }
+  .ag2 {
+    top: 5%;
+    left: 33%;
+  }
+  .ag3 {
+    top: 5%;
+    left: 56%;
+  }
+  .ag4 {
+    top: 5%;
+    left: 80%;
+  }
+  .ag5 {
+    top: 55%;
+    left: 25%;
+  }
+  .ag6 {
+    top: 55%;
+    left: 64%;
+  }
+  #station-card-top h2 {
+    font-size: 1.1rem;
+  }
+  #station-card-top i {
+    font-size: 3rem;
+    /* color: white; */
+  }
+  #popular-artists-container .artist > img {
+    width: 80px;
+    margin: 5px;
+  }
+  #playlist-section {
+    border: 2px solid red;
+    top: 17%;
+    background-color: #ffa5a5;
+    z-index: 5;
+    width: 50%;
+  }
+}
+
+@media (max-width: 800px) {
+  nav input {
+    margin-left: 10vw;
+  }
+}
+
+@media (max-width: 755px) {
+  nav input {
+    margin-left: 5vw;
+  }
+}
+@media (max-width: 715px) {
+  nav input {
+    margin-left: 1vw;
+  }
+}
+
+@media (max-width: 680px) {
+  nav ul li {
+    display: inline-block;
+    margin: 10px 5px 5px 10px;
+  }
+  #music-logo {
+    font-size: 2rem;
+    top: 7px;
+    left: 15px;
+  }
+  .artist-genre {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 590px) {
+  #stations-card {
+    /* border: 2px solid red; */
+    width: 30vw;
+  }
+  #stations-categories {
+    margin-top: -38%;
+  }
+  .artist-genre {
+    font-size: 1.5rem;
+  }
+  nav ul li a {
+    font-size: 1.2rem;
+  }
+  nav input {
+    width: 24vw;
+  }
+  .song-details > h3 {
+    font-size: 1rem;
+  }
+  .song-details > p {
+    font-size: 0.6rem;
+  }
+  #stations-container {
+    height: 33vw;
+  }
+  #stations-categories .artist > img {
+    width: 14vw;
+    height: 14vw;
+  }
+
+  .ag1 {
+    top: 7%;
+    left: 10%;
+  }
+  .ag2 {
+    top: 7%;
+    left: 42%;
+  }
+  .ag3 {
+    top: 7%;
+    left: 73%;
+  }
+  .ag4 {
+    top: 58%;
+    left: 9%;
+  }
+  .ag5 {
+    top: 58%;
+    left: 42%;
+  }
+  .ag6 {
+    top: 58%;
+    left: 74%;
+  }
+
+  /* #station-card-top h2 {
+    font-size: 1rem;
+  }
+  #station-card-top i {
+    font-size: 2rem;
+    /* color: white; 
+  } */
+}
+
+@media (max-width: 505px) {
+  nav ul li a {
+    font-size: 1rem;
+  }
+  nav input {
+    width: 20vw;
+  }
+  #music-logo {
+    font-size: 1.7rem;
+    top: 7px;
+    left: 15px;
+  }
+}

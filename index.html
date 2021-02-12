@@ -6,6 +6,7 @@
     <title>Document</title>
     <link rel="stylesheet" href="index.css" />
     <link rel="stylesheet" href="responsive-playlist.css">
+    <link rel="stylesheet" href="responsive-index.css">
   </head>
   <body>
     <!-- Header Section -->
@@ -21,9 +22,9 @@
           <li>
             <a href="#">Favourites</a>
           </li>
-          <li id="dummy-li">
+          <!-- <li id="dummy-li">
             <a href="#" style=" visibility: hidden;">dummy</a>
-          </li>
+          </li> -->
           <li>
             <input type="text" name="search" />
           </li>
@@ -47,7 +48,7 @@
     <main>
 
       <div class="hamburger active">
-        <i class="fas fa-hamburger"></i>
+        <i class="fas fa-bars"></i>
       </div>
       
 
@@ -177,25 +178,61 @@
         <section id="music-charts-section">
           <div id="music-charts-contanier">
             <img
-              class="chart-image"
+              class="chart-image ci1"
               src="images/dummy-chart-image.jpg"
               alt="chart-image"
             />
             <img
-              class="chart-image"
+              class="chart-image ci2"
               src="images/dummy-chart-image.jpg"
               alt="chart-image"
             />
             <img
-              class="chart-image"
+              class="chart-image ci3"
               src="images/dummy-chart-image.jpg"
               alt="chart-image"
             />
           </div>
         </section>
 
-        <section id="latest-releases-section">
-          <div class="latest-releases-container">
+
+        <section id="latest-release-section">
+          <div class="latest-release-row">
+            <div class="lr-item">
+              <img src="images/popular-artists/ed sheeran.jpg" alt="ed-image">
+              <div class="lr-item-detail">
+              <h2>Song Name</h2>
+              <p>M/XX/YYYY</p>
+            </div>
+            </div>
+            <div class="lr-item">
+              <img src="images/popular-artists/ed sheeran.jpg" alt="ed-image">
+              <div class="lr-item-detail">
+              <h2>Song Name</h2>
+              <p>M/XX/YYYY</p>
+            </div>
+            </div>
+          </div>
+          <div class="latest-release-row">
+            <div class="lr-item">
+              <img src="images/popular-artists/ed sheeran.jpg" alt="ed-image">
+              <div class="lr-item-detail">
+              <h2>Song Name</h2>
+              <p>M/XX/YYYY</p>
+            </div>
+            </div>
+            <div class="lr-item">
+              <img src="images/popular-artists/ed sheeran.jpg" alt="ed-image">
+              <div class="lr-item-detail">
+              <h2>Song Name</h2>
+              <p>M/XX/YYYY</p>
+            </div>
+            </div>
+          </div>
+        </section>
+
+       <!-- <section id="latest-releases-section">
+           <div class="latest-releases-container">
             <h1 class="heading">Latest Releases</h1>
             <div class="lr-item">
               <div class="lr-item-image">
@@ -249,7 +286,7 @@
                   </div>
                 </div>
           </div>
-        </section>  
+        </section>   -->
         </div>
 
         <section id="popular-artists-section">
@@ -303,22 +340,29 @@
 
           <div id="stations-categories">
             <div class="artist">
+              
               <img src="images/popular-artists/bruno mars.jpg" alt="artist-image">
+              <h3 class="artist-genre ag1">Rock</h3>
             </div>
             <div class="artist">
               <img src="images/popular-artists/Camila Cabello.jpg" alt="artist-image">
+              <h3 class="artist-genre ag2">Rock</h3>
             </div>
             <div class="artist">
               <img src="images/popular-artists/sixnine.jpg" alt="artist-image">
+              <h3 class="artist-genre ag3">Rock</h3>
             </div>
             <div class="artist">
               <img src="images/popular-artists/ed sheeran.jpg" alt="artist-image">
+              <h3 class="artist-genre ag4">Rock</h3>
             </div>
             <div class="artist">
               <img src="images/popular-artists/eminem.jpg" alt="artist-image">
+              <h3 class="artist-genre ag5">Rock</h3>
             </div>
             <div class="artist">
               <img src="images/popular-artists/Katy perry.jpg" alt="artist-image">
+              <h3 class="artist-genre ag6">Rock</h3>
             </div>
           </div>
 
@@ -326,10 +370,46 @@
         </section>
 
 
+        <section id="latest-songs-container">
+          <div id="latest-songs-heading">
+            <h1 class="heading">Latest Songs</h1>
+          </div>
+          <div id="latest-songs">
+            <div class="song-details">
+              <img src="images/lr4.jpg" alt="song-image">
+              <h3>Song Name</h3>
+              <p>DateXX, xxxx</p>
+            </div>
+            <div class="song-details">
+              <img src="images/lr4.jpg" alt="song-image">
+              <h3>Song Name</h3>
+              <p>DateXX, xxxx</p>
+            </div>
+            <div class="song-details">
+              <img src="images/lr4.jpg" alt="song-image">
+              <h3>Song Name</h3>
+              <p>DateXX, xxxx</p>
+            </div>
+            <div class="song-details">
+              <img src="images/lr4.jpg" alt="song-image">
+              <h3>Song Name</h3>
+              <p>DateXX, xxxx</p>
+            </div>
+            <div class="song-details">
+              <img src="images/lr4.jpg" alt="song-image">
+              <h3>Song Name</h3>
+              <p>DateXX, xxxx</p>
+            </div>
+          </div>
 
-          <div>
-            <h1>Just A Hack if it works for bottom of page</h1>
-            <p>lorem*2</p>
+        </section>
+
+        <!-- HACK -->
+        <!-- Yeah Yeah I Know That's Bad anyways.... -->
+
+          <div style="margin-bottom: 60px;">
+            <!-- <h1 >Just A Hack if it works for bottom of page</h1> -->
+            <!-- <p>lorem*2</p> -->
           </div>
         
         <!-- <div class="div-bottom">
@@ -352,14 +432,18 @@
       <script src="https://kit.fontawesome.com/63f6d0fc63.js" crossorigin="anonymous"></script>
       <script>
 
+        var dummyLi = document.getElementById("dummy-li");
+
+        
+
         var ham = document.getElementsByClassName("hamburger")[0];
         var playlist = document.getElementById("playlist-section");
         var pressed = false;
-        var windowSize = window.matchMedia("(max-width: 700px)");
+        var windowSize = window.matchMedia("(max-width: 830px)");
         ham.addEventListener("click", function() {
           // playlist.style.display = "block";
           if(!pressed) {
-            if(window.innerWidth <= 700) {
+            if(window.innerWidth <= 830) {
               
               playlist.style.right = 0 + "%";
             pressed = true;
@@ -376,7 +460,18 @@
             
           }
           
-        })
+        });
+
+        var reload = false;
+        if(window.innerWidth <= 760) {
+          dummyLi.remove();
+          // if(!reload) {
+          //   document.getElementsByTagName("nav").load();
+          //   reload = true;
+          // }
+          
+        }
+        
 
       </script>
     </script>
