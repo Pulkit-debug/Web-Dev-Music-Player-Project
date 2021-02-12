@@ -27,6 +27,7 @@ body {
   font-size: 3rem;
   top: 3px;
   position: absolute;
+  animation: rotate 2s ease-in-out infinite;
 }
 .first-field {
   margin-left: 35px;
@@ -52,6 +53,17 @@ nav input {
   list-style: none;
   outline: none;
 }
+
+/* Animation for Logo */
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
 /* #dummy-li {
   
 } */
